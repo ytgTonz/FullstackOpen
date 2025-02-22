@@ -2,7 +2,7 @@
 
 This repository contains the backend developed from part 3 onwards in the Full Stack course. The different stages of the application are saved in different branches.
 
-The Notes backend implements a RESTful HTTP interface and handles the management of notes. It is developed using Node and Express. The purpose is to develop a backend that works with the [frontend](https://github.com/fullstack-hy2020/part2-notes-frontend/tree/part3-1) developed in part 2 of the Full Stack course.
+The Notes backend implements a RESTful HTTP interface and handles the management of notes. It is developed using Node and Express. The purpose is to develop a backend that works with the [frontend](https://github.com/fullstack-hy2020/part2-notes-frontend/tree/part3-1) developed in part 2 of the course.
 
 ## Running the application on your own machine
 
@@ -24,4 +24,4 @@ Follow these steps to run the application:
 
 The different stages of the application are saved in different branches. Switching branches changes the code in your working directory to match the state of the branch you switched to. This allows you to work on different versions of the application without affecting the codebase of other branches.
 
-You can switch to the desired branch by running the command `git switch <branch-name>`, for example `git switch part3-2`. Note that new dependencies are added to the application as development progresses, so after switching branches, it is safest to run the command `npm install` to ensure that any missing node modules are installed on your machine.
+You can switch to the desired branch by running the command `git switch <branch-name>`, for example `git switch part3-2`. Note that new dependencies are added to the application as development progresses, so after switching branches, it is safest to run the command `npm install` to ensure that any missing node modules will be installed on your machine.
