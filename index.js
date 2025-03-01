@@ -1,4 +1,3 @@
-const cors = require('cors')
 const express = require('express')
 const app = express()
 
@@ -30,7 +29,6 @@ const requestLogger = (request, response, next) => {
 
 app.use(requestLogger)
 app.use(express.static('dist'))
-app.use(cors())
 app.use(express.json())
 
 app.get('/', (request, response) => {
