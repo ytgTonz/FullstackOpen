@@ -18,7 +18,16 @@ Follow these steps to run the application:
 
 4. Install the node modules with the command `npm install`
 
-5. Start the application with the command `npm run dev`. By default, the application will start on port 3001, so it will be available at http://localhost:3001/.
+5. If you are on branch part3-4 or later, you need to create a _.env_ file in the root of the project with the following content:
+
+   ```
+   MONGODB_URI=your_database_connection_string
+   PORT=3001
+   ```
+
+   `MONGODB_URI` defines the database connection url and `PORT` defines the port on which the application will be started.
+
+6. Start the application with the command `npm run dev`. By default, the application will start on port 3001, so it will be available at http://localhost:3001/.
 
 ## How to switch between branches?
 
