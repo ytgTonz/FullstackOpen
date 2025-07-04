@@ -10,7 +10,7 @@
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   "author": "Yola Gcolotela",
-  "license": "MIT",
+  "license": "MIT",  
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
