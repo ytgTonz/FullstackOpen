@@ -4,15 +4,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js",
+    "dev": "node --watch index.js hamza_78674",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf dist && cd ../part2-notes-frontend && npm run build && cp -r dist ../part3-notes-backend",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   "author": "Yola Gcolotela",
-  "license": "MIT",  
+  "license": "MIT",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "dotenv": "^17.0.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.16.1"
   }
 }
